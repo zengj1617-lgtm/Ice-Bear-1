@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <title>My Virtual Pet is Ice Bear</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+
+  <style>
+    body {
+      background-color: lightgray;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    canvas {
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>My Virtual Pet Ice Bear</h1>
+
+<script>
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(200);
+
+  // face shape
+  fill(255);
+  ellipse(200, 400, 300, 600);
+
+  // ears
+  fill(255);
+  ellipse(120, 140, 50, 50);
+  ellipse(280, 140, 50, 50);
+
+  // eyes
+  fill(0);
+  ellipse(150, 230, 10, 20);
+  ellipse(250, 230, 10, 20);
+
+  // nose
+  fill(0);
+  ellipse(200, 330, 40, 20);
+
+  // mouth
+  fill(0);
+  rect(170, 370, 65, 5);
+}
+</script>
+
+<p><i>Johnson Zeng, APCSA</i></p>
+
+</body>
+</html>
